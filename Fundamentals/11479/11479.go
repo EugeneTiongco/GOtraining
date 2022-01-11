@@ -6,7 +6,7 @@ func main() {
 	var T, x, y, z int
 	count := 1
 	fmt.Scan(&T)
-	if T < 20 {
+	if T < 20 && T > 0 {
 		n, _ := fmt.Scan(&x, &y, &z)
 		for n == 3 && count <= T {
 			if TIT(x, y, z) == true {
@@ -26,6 +26,8 @@ func main() {
 				fmt.Scan(&x, &y, &z)
 			}
 		}
+	} else {
+		fmt.Println("Error: Input a positive integer less than 20")
 	}
 }
 

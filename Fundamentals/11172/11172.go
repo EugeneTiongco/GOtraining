@@ -6,7 +6,7 @@ func main() {
 	var t, x, y int
 
 	fmt.Scan(&t)
-	if t < 15 {
+	if t < 15 && t > 0 {
 		n, _ := fmt.Scan(&x, &y)
 		for n == 2 && t > 0 {
 			switch {
@@ -22,5 +22,7 @@ func main() {
 				n, _ = fmt.Scan(&x, &y)
 			}
 		}
+	} else {
+		fmt.Println("Error: Input a positive integer less than 15")
 	}
 }
