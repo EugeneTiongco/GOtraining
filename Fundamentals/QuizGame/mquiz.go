@@ -1,3 +1,4 @@
+// Package main provides a quiz tool
 package main
 
 import (
@@ -37,14 +38,18 @@ func main() {
 		log.Fatalf("Insufficient questions found in database. It needs at least %v questions", *itemNum)
 	}
 
-	rand.Seed(time.Now().Unix())
-	rand.Shuffle(len(lines), func(i, j int) {
-		lines[i], lines[j] = lines[j], lines[i]
-	})
+	lines = ShuffleQuestions(lines)
 
+	score := TakeTest(*itemNum, lines)
+	fmt.Printf("You answered %v out of %v questions correctly.\n", score, *itemNum)
+
+}
+
+//TakeTest calculates and returns the user score.
+func TakeTest(itemNum int, lines [][]string) int {
 	score := 0
 
-	for i := 0; i < *itemNum; i++ {
+	for i := 0; i < itemNum; i++ {
 		var a string
 		fmt.Printf("%v = ", lines[i][0])
 		fmt.Scan(&a)
@@ -52,9 +57,16 @@ func main() {
 		if a == lines[i][1] {
 			score++
 		}
-
 	}
+	return score
+}
 
-	fmt.Printf("You answered %v out of %v questions correctly.\n", score, *itemNum)
+//ShuffleQuestions randomizes the questions.
+func ShuffleQuestions(lines [][]string) [][]string {
+	rand.Seed(time.Now().Unix())
+	rand.Shuffle(len(lines), func(i, j int) {
+		lines[i], lines[j] = lines[j], lines[i]
+	})
 
+	return lines
 }
