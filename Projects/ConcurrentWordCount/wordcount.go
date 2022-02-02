@@ -46,7 +46,7 @@ func main() {
 
 }
 
-//GetWords reads the words from the files concurrently using channels.
+//GetWords reads the words from the files concurrently using a channel.
 func GetWords(filename string, ch chan<- string) {
 
 	file, err := os.Open(filename)
