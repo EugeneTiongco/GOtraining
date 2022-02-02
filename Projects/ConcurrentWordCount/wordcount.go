@@ -41,7 +41,7 @@ func main() {
 
 	for i := range sortedWords {
 
-		fmt.Printf("%v %v \n", sortedWords[i], wc.words[sortedWords[i]])
+		fmt.Printf("%v %v \n", sortedWords[i], wc.GetWordAmount(sortedWords[i]))
 	}
 
 }
@@ -75,6 +75,13 @@ func (wc *WordCounter) CountWords(key string) {
 	if key != "" {
 		wc.words[key]++
 	}
+}
+
+//GetWordAmount returns the amount of instances per word
+func (wc *WordCounter) GetWordAmount(key string) int {
+	wc.mu.Lock()
+	defer wc.mu.Unlock()
+	return wc.words[key]
 }
 
 //GetSortedWords returns an array of strings containing the words arranged in alphabetical order.
