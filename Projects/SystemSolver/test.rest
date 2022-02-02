@@ -1,0 +1,2 @@
+### check the webserver
+GET http://localhost:8080
