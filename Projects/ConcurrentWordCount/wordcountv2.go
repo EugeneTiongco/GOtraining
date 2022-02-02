@@ -27,6 +27,8 @@ func main() {
 
 	filenames := os.Args[1:]
 	ch := make(chan []string)
+	//V2 version concurrently runs GetWords and CountWords at the same time vs V1 where GetWords
+	//is run concurrently, finished, then CountWords is then run concurrently
 	for _, filename := range filenames {
 		go GetWords(filename, ch)
 		wordList := make([]string, 0)
