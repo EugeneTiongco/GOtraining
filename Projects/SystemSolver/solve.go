@@ -24,15 +24,13 @@ func handler() http.HandlerFunc {
 
 //process queries the input from the URL
 func process(w http.ResponseWriter, r *http.Request) {
-	if r.Method == "POST" {
-		input := r.URL.Query()["coef"]
-		if len(input[0]) != 23 {
-			http.Error(w, "Bad Request: Incorrect number of coefficients.", http.StatusBadRequest)
-		} else {
-			coef := ConvertInput(input[0])
-			matrix := CreateInitialMatrix(coef)
-			FindSolution(matrix, w)
-		}
+	input := r.URL.Query()["coef"]
+	if len(input[0]) != 23 {
+		http.Error(w, "Bad Request: Incorrect number of coefficients.", http.StatusBadRequest)
+	} else {
+		coef := ConvertInput(input[0])
+		matrix := CreateInitialMatrix(coef)
+		FindSolution(matrix, w)
 	}
 }
 

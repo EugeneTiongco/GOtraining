@@ -1,2 +1,2 @@
 ### check the webserver
-POST  http://localhost:8080/solve?coef=4,5,6,7,2,3,1,2,1,2,3,2
+http://localhost:8080/solve?coef=4,5,6,7,2,3,1,2,1,2,3,2
