@@ -4,7 +4,8 @@ package main
 import (
 	"fmt"
 	"net/http"
-	"regexp"
+	"strconv"
+	"strings"
 )
 
 func main() {
@@ -17,38 +18,54 @@ func handler() http.HandlerFunc {
 		if r.URL.Path == "/solve" {
 			process(w, r)
 		} else {
-			http.Error(w, "Bad Request: Incorrect URL", http.StatusBadRequest)
+			http.Error(w, "Bad Request: Incorrect URL format", http.StatusBadRequest)
 		}
 	}
 }
 
 //process queries the input from the URL
 func process(w http.ResponseWriter, r *http.Request) {
-	input := r.URL.Query()["coef"]
-	if len(input[0]) != 23 {
-		http.Error(w, "Bad Request: Incorrect number of coefficients.", http.StatusBadRequest)
+	input, err := r.URL.Query()["coef"]
+	if !err {
+		http.Error(w, "Bad Request: Inccorect url query, use 'coef'", http.StatusBadRequest)
 	} else {
-		coef := ConvertInput(input[0])
-		matrix := CreateInitialMatrix(coef)
-		FindSolution(matrix, w)
+		coef, errorMsg := ConvertInput(input[0])
+		fmt.Fprintln(w, coef)
+		if errorMsg != "" {
+			http.Error(w, errorMsg, http.StatusBadRequest)
+		}
+		if len(coef) != 12 {
+			http.Error(w, "Bad Request: Incorrect number of coefficients.", http.StatusBadRequest)
+		} else {
+			matrix := CreateInitialMatrix(coef)
+			FindSolution(matrix, w)
+		}
 	}
 }
 
-//ConvertInput converts the string query into float64 and returns an array of coefficients
-func ConvertInput(input string) [12]float64 {
-	removeSpecial := regexp.MustCompile(`(?m)[^0-9]`)
-	input = removeSpecial.ReplaceAllString(input, "")
-	var coef [12]float64
-	for i, num := range input {
-		floatNum := float64(num - '0')
-		coef[i] = floatNum
+//ConvertInput converts the string query into float64 and returns a slice of coefficients
+func ConvertInput(input string) ([]float64, string) {
+	var errorMsg string
+	splitInput := strings.Split(input, ",")
+	coef := make([]float64, 0)
+	if len(splitInput) == 12 {
+		for _, num := range splitInput {
+			if num != "" {
+				temp, err := strconv.ParseFloat(num, 64)
+				if err != nil {
+					errorMsg = "Bad Request: Incorrect input format."
+				} else {
+					coef = append(coef, temp)
+				}
+			}
+		}
 	}
 
-	return coef
+	return coef, errorMsg
 }
 
 //CreateInitialMatrix takes an array of coefficients and returns a 2D matrix
-func CreateInitialMatrix(coef [12]float64) [3][4]float64 {
+func CreateInitialMatrix(coef []float64) [3][4]float64 {
 	var mat [3][4]float64
 	i := 0
 	for j := 0; j < 3; j++ {
