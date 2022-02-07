@@ -30,7 +30,7 @@ func process(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Bad Request: Inccorect url query, use 'coef'", http.StatusBadRequest)
 	} else {
 		coef, errorMsg := ConvertInput(input[0])
-		fmt.Fprintln(w, coef)
+		//fmt.Fprintln(w, coef)
 		if errorMsg != "" {
 			http.Error(w, errorMsg, http.StatusBadRequest)
 		}
