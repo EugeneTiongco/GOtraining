@@ -1,0 +1,11 @@
+### check the webserver
+GET  http://localhost:8080/contacts
+
+{
+    "Last" : "Tiongco",
+    "First" : "EJ",
+    "Address" : "Anitpolo City",
+    "Country" : "Philippines",
+    "Company": "Cobena",
+    "Position" : "Software Engineer"
+}
