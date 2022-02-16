@@ -6,6 +6,8 @@ After running the server, the application will be able to handle multiple users 
 
 This application is deployed and ran using Docker which uses a Command Line Interface (CLI) to interact with the application. It uses http API as well as a JSON file (`movieDatabase.json`) to access as locally stored file-based database and a text file (`logs.txt`) to log important events. It also comes with a video presentation to demonstrate what the application does.
 
+video link: https://pb2b-my.sharepoint.com/:v:/g/personal/johneugene_tiongco_demandscience_com/EcPBO5JaI0hFl-U4RMyhn2gBtQ21MWAoTR-K_gISqO4hyg
+
 Main Features:
 - App | API and CLI
 - Local Storage | JSON
