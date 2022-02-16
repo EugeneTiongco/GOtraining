@@ -1,0 +1,357 @@
+INFO: 2022/02/14 17:20:35 main.go:493: EJ logged out successfuly.
+INFO: 2022/02/14 17:20:57 main.go:79: Database read.
+INFO: 2022/02/14 17:20:57 main.go:95: Database loaded.
+INFO: 2022/02/14 17:20:57 main.go:421: EJ logged in successfully.
+INFO: 2022/02/14 17:20:57 main.go:88: Database updated.
+INFO: 2022/02/14 17:21:23 main.go:79: Database read.
+INFO: 2022/02/14 17:21:23 main.go:95: Database loaded.
+INFO: 2022/02/14 17:21:23 main.go:165: EJ viewed their to-watch movie list.
+INFO: 2022/02/14 17:21:23 main.go:88: Database updated.
+INFO: 2022/02/14 17:22:37 main.go:79: Database read.
+INFO: 2022/02/14 17:22:37 main.go:95: Database loaded.
+ERROR: 2022/02/14 17:22:37 main.go:313: "Error 405": Method not allowed.
+INFO: 2022/02/14 17:22:48 main.go:79: Database read.
+INFO: 2022/02/14 17:22:48 main.go:95: Database loaded.
+INFO: 2022/02/14 17:22:48 main.go:304: EJ finished watching Transformers: Dark of the Moon.
+INFO: 2022/02/14 17:22:48 main.go:88: Database updated.
+INFO: 2022/02/14 17:23:15 main.go:493: EJ logged out successfuly.
+INFO: 2022/02/15 16:46:18 movies.go:79: Database read.
+INFO: 2022/02/15 16:50:03 movies.go:79: Database read.
+INFO: 2022/02/15 16:50:03 movies.go:95: Database loaded.
+ERROR: 2022/02/15 16:50:03 movies.go:357: "Error 401": Requires user log in.
+INFO: 2022/02/15 16:50:03 movies.go:88: Database updated.
+INFO: 2022/02/15 16:50:53 movies.go:79: Database read.
+INFO: 2022/02/15 16:50:53 movies.go:95: Database loaded.
+INFO: 2022/02/15 16:50:53 movies.go:424: EJ logged in successfully.
+INFO: 2022/02/15 16:50:53 movies.go:88: Database updated.
+INFO: 2022/02/15 16:52:07 movies.go:79: Database read.
+INFO: 2022/02/15 16:52:07 movies.go:95: Database loaded.
+INFO: 2022/02/15 16:52:07 movies.go:343: EJ viewed the list of movies they have watched.
+INFO: 2022/02/15 16:52:07 movies.go:88: Database updated.
+INFO: 2022/02/15 17:01:06 movies.go:79: Database read.
+INFO: 2022/02/15 17:01:06 movies.go:95: Database loaded.
+ERROR: 2022/02/15 17:01:06 movies.go:352: "Error 405": Method not allowed.
+INFO: 2022/02/15 17:01:12 movies.go:79: Database read.
+INFO: 2022/02/15 17:01:12 movies.go:95: Database loaded.
+ERROR: 2022/02/15 17:01:12 movies.go:443: "Error 401": Active user already found.
+INFO: 2022/02/15 17:01:12 movies.go:88: Database updated.
+INFO: 2022/02/15 17:01:27 movies.go:79: Database read.
+INFO: 2022/02/15 17:01:27 movies.go:95: Database loaded.
+ERROR: 2022/02/15 17:01:27 movies.go:352: "Error 405": Method not allowed.
+INFO: 2022/02/15 17:01:44 movies.go:79: Database read.
+INFO: 2022/02/15 17:02:25 movies.go:79: Database read.
+INFO: 2022/02/15 17:02:25 movies.go:95: Database loaded.
+ERROR: 2022/02/15 17:02:25 movies.go:357: "Error 401": Requires user log in.
+INFO: 2022/02/15 17:02:25 movies.go:88: Database updated.
+INFO: 2022/02/15 17:02:27 movies.go:79: Database read.
+INFO: 2022/02/15 17:02:27 movies.go:95: Database loaded.
+INFO: 2022/02/15 17:02:27 movies.go:424: EJ logged in successfully.
+INFO: 2022/02/15 17:02:27 movies.go:88: Database updated.
+INFO: 2022/02/15 17:02:30 movies.go:79: Database read.
+INFO: 2022/02/15 17:02:30 movies.go:95: Database loaded.
+ERROR: 2022/02/15 17:02:30 movies.go:352: "Error 405": Method not allowed.
+INFO: 2022/02/15 17:05:42 movies.go:79: Database read.
+INFO: 2022/02/15 17:07:54 movies.go:79: Database read.
+INFO: 2022/02/15 17:07:54 movies.go:95: Database loaded.
+INFO: 2022/02/15 17:07:54 movies.go:424: EJ logged in successfully.
+INFO: 2022/02/15 17:07:54 movies.go:88: Database updated.
+INFO: 2022/02/15 17:08:27 movies.go:79: Database read.
+INFO: 2022/02/15 17:08:27 movies.go:95: Database loaded.
+ERROR: 2022/02/15 17:08:27 movies.go:352: "Error 405": Method not allowed.
+INFO: 2022/02/15 17:09:42 movies.go:79: Database read.
+INFO: 2022/02/15 17:09:42 movies.go:95: Database loaded.
+ERROR: 2022/02/15 17:09:42 movies.go:352: "Error 405": Method not allowed.
+INFO: 2022/02/15 17:09:49 movies.go:79: Database read.
+INFO: 2022/02/15 17:09:49 movies.go:95: Database loaded.
+ERROR: 2022/02/15 17:09:49 movies.go:443: "Error 401": Active user already found.
+INFO: 2022/02/15 17:09:49 movies.go:88: Database updated.
+INFO: 2022/02/15 17:10:00 movies.go:79: Database read.
+INFO: 2022/02/15 17:10:00 movies.go:95: Database loaded.
+ERROR: 2022/02/15 17:10:00 movies.go:352: "Error 405": Method not allowed.
+INFO: 2022/02/15 17:12:06 movies.go:504: EJ logged out successfully.
+INFO: 2022/02/15 17:13:14 movies.go:79: Database read.
+INFO: 2022/02/15 17:13:14 movies.go:95: Database loaded.
+INFO: 2022/02/15 17:13:14 movies.go:424: EJ logged in successfully.
+INFO: 2022/02/15 17:13:14 movies.go:88: Database updated.
+INFO: 2022/02/15 17:14:00 movies.go:79: Database read.
+INFO: 2022/02/15 17:14:00 movies.go:95: Database loaded.
+ERROR: 2022/02/15 17:14:00 movies.go:162: "Error 404": No movies found in database.
+INFO: 2022/02/15 17:14:31 movies.go:79: Database read.
+INFO: 2022/02/15 17:14:31 movies.go:95: Database loaded.
+ERROR: 2022/02/15 17:14:31 movies.go:162: "Error 404": No movies found in database.
+INFO: 2022/02/15 17:15:43 movies.go:79: Database read.
+INFO: 2022/02/15 17:15:43 movies.go:95: Database loaded.
+INFO: 2022/02/15 17:15:43 movies.go:343: EJ viewed the list of movies they have watched.
+INFO: 2022/02/15 17:15:43 movies.go:88: Database updated.
+INFO: 2022/02/15 17:18:19 movies.go:79: Database read.
+INFO: 2022/02/15 17:18:19 movies.go:95: Database loaded.
+INFO: 2022/02/15 17:18:19 movies.go:156: EJ added Suicide+Squad to their to-watch list.
+INFO: 2022/02/15 17:18:19 movies.go:88: Database updated.
+INFO: 2022/02/15 17:18:53 movies.go:79: Database read.
+INFO: 2022/02/15 17:18:53 movies.go:95: Database loaded.
+INFO: 2022/02/15 17:18:53 movies.go:166: EJ viewed their to-watch movie list.
+INFO: 2022/02/15 17:18:53 movies.go:88: Database updated.
+INFO: 2022/02/15 17:19:53 movies.go:79: Database read.
+INFO: 2022/02/15 17:19:53 movies.go:95: Database loaded.
+INFO: 2022/02/15 17:19:53 movies.go:156: EJ added Suicide Squad to their to-watch list.
+INFO: 2022/02/15 17:19:53 movies.go:88: Database updated.
+INFO: 2022/02/15 17:19:57 movies.go:79: Database read.
+INFO: 2022/02/15 17:19:57 movies.go:95: Database loaded.
+INFO: 2022/02/15 17:19:57 movies.go:166: EJ viewed their to-watch movie list.
+INFO: 2022/02/15 17:19:57 movies.go:88: Database updated.
+INFO: 2022/02/15 17:23:37 movies.go:79: Database read.
+INFO: 2022/02/15 17:23:37 movies.go:95: Database loaded.
+ERROR: 2022/02/15 17:23:37 movies.go:257: "Error 404": Movie not found in database.
+INFO: 2022/02/15 17:23:47 movies.go:79: Database read.
+INFO: 2022/02/15 17:23:47 movies.go:95: Database loaded.
+ERROR: 2022/02/15 17:23:47 movies.go:257: "Error 404": Movie not found in database.
+INFO: 2022/02/15 17:24:24 movies.go:79: Database read.
+INFO: 2022/02/15 17:24:24 movies.go:95: Database loaded.
+INFO: 2022/02/15 17:24:24 movies.go:254: EJ deleted Movie#2 from database.
+INFO: 2022/02/15 17:24:24 movies.go:88: Database updated.
+INFO: 2022/02/15 17:24:33 movies.go:79: Database read.
+INFO: 2022/02/15 17:24:33 movies.go:95: Database loaded.
+INFO: 2022/02/15 17:24:33 movies.go:166: EJ viewed their to-watch movie list.
+INFO: 2022/02/15 17:24:33 movies.go:88: Database updated.
+INFO: 2022/02/15 17:25:16 movies.go:79: Database read.
+INFO: 2022/02/15 17:25:16 movies.go:95: Database loaded.
+ERROR: 2022/02/15 17:25:16 movies.go:286: json: cannot unmarshal string into Go struct field Movie.Rating of type int
+INFO: 2022/02/15 17:26:52 movies.go:79: Database read.
+INFO: 2022/02/15 17:26:52 movies.go:95: Database loaded.
+INFO: 2022/02/15 17:26:52 movies.go:307: EJ finished watching Suicide Squad.
+INFO: 2022/02/15 17:26:52 movies.go:88: Database updated.
+INFO: 2022/02/15 17:35:42 movies.go:79: Database read.
+INFO: 2022/02/15 17:35:42 movies.go:95: Database loaded.
+ERROR: 2022/02/15 17:35:42 movies.go:162: "Error 404": No movies found in database.
+INFO: 2022/02/15 17:39:14 movies.go:79: Database read.
+INFO: 2022/02/15 17:39:14 movies.go:95: Database loaded.
+INFO: 2022/02/15 17:39:14 movies.go:343: EJ viewed the list of movies they have watched.
+INFO: 2022/02/15 17:39:14 movies.go:88: Database updated.
+INFO: 2022/02/15 17:39:36 movies.go:79: Database read.
+INFO: 2022/02/15 17:39:36 movies.go:95: Database loaded.
+INFO: 2022/02/15 17:39:36 movies.go:343: EJ viewed the list of movies they have watched.
+INFO: 2022/02/15 17:39:36 movies.go:88: Database updated.
+INFO: 2022/02/15 17:39:46 movies.go:79: Database read.
+INFO: 2022/02/15 17:39:46 movies.go:95: Database loaded.
+INFO: 2022/02/15 17:39:46 movies.go:343: EJ viewed the list of movies they have watched.
+INFO: 2022/02/15 17:39:46 movies.go:88: Database updated.
+INFO: 2022/02/15 17:49:35 movies.go:79: Database read.
+INFO: 2022/02/15 17:49:35 movies.go:95: Database loaded.
+INFO: 2022/02/15 17:49:35 movies.go:343: EJ viewed the list of movies they have watched.
+INFO: 2022/02/15 17:49:35 movies.go:88: Database updated.
+INFO: 2022/02/15 17:50:07 movies.go:504: EJ logged out successfully.
+INFO: 2022/02/15 18:13:03 movies.go:79: Database read.
+INFO: 2022/02/15 18:13:57 movies.go:79: Database read.
+INFO: 2022/02/15 18:13:57 movies.go:95: Database loaded.
+ERROR: 2022/02/15 18:13:57 movies.go:358: "Error 401": Requires user log in.
+INFO: 2022/02/15 18:13:57 movies.go:88: Database updated.
+INFO: 2022/02/15 18:14:18 movies.go:79: Database read.
+INFO: 2022/02/15 18:14:18 movies.go:95: Database loaded.
+INFO: 2022/02/15 18:14:18 movies.go:425: EJ logged in successfully.
+INFO: 2022/02/15 18:14:18 movies.go:88: Database updated.
+INFO: 2022/02/15 18:14:21 movies.go:79: Database read.
+INFO: 2022/02/15 18:14:21 movies.go:95: Database loaded.
+INFO: 2022/02/15 18:14:21 movies.go:343: EJ viewed the list of movies they have watched.
+INFO: 2022/02/15 18:14:21 movies.go:88: Database updated.
+INFO: 2022/02/15 18:16:05 movies.go:79: Database read.
+INFO: 2022/02/15 18:16:18 movies.go:79: Database read.
+INFO: 2022/02/15 18:16:18 movies.go:95: Database loaded.
+INFO: 2022/02/15 18:16:18 movies.go:425: EJ logged in successfully.
+INFO: 2022/02/15 18:16:18 movies.go:88: Database updated.
+INFO: 2022/02/15 18:16:20 movies.go:79: Database read.
+INFO: 2022/02/15 18:16:20 movies.go:95: Database loaded.
+INFO: 2022/02/15 18:16:20 movies.go:343: EJ viewed the list of movies they have watched.
+INFO: 2022/02/15 18:16:20 movies.go:88: Database updated.
+INFO: 2022/02/15 18:20:33 movies.go:79: Database read.
+INFO: 2022/02/15 18:21:26 movies.go:79: Database read.
+INFO: 2022/02/15 18:21:26 movies.go:95: Database loaded.
+INFO: 2022/02/15 18:21:26 movies.go:428: EJ logged in successfully.
+INFO: 2022/02/15 18:21:26 movies.go:88: Database updated.
+INFO: 2022/02/15 18:21:28 movies.go:79: Database read.
+INFO: 2022/02/15 18:21:28 movies.go:95: Database loaded.
+INFO: 2022/02/15 18:21:28 movies.go:345: EJ viewed the list of movies they have watched.
+INFO: 2022/02/15 18:21:28 movies.go:88: Database updated.
+INFO: 2022/02/15 18:22:56 movies.go:79: Database read.
+INFO: 2022/02/15 18:22:56 movies.go:95: Database loaded.
+INFO: 2022/02/15 18:22:56 movies.go:156: EJ added Iron Man to their to-watch list.
+INFO: 2022/02/15 18:22:56 movies.go:88: Database updated.
+INFO: 2022/02/15 18:23:21 movies.go:79: Database read.
+INFO: 2022/02/15 18:23:21 movies.go:95: Database loaded.
+INFO: 2022/02/15 18:23:21 movies.go:156: EJ added Captain America: Winter Soldier to their to-watch list.
+INFO: 2022/02/15 18:23:21 movies.go:88: Database updated.
+INFO: 2022/02/15 18:23:57 movies.go:508: EJ logged out successfully.
+INFO: 2022/02/16 15:05:11 movies.go:81: Database read.
+INFO: 2022/02/16 15:10:38 movies.go:81: Database read.
+INFO: 2022/02/16 15:10:47 movies.go:81: Database read.
+INFO: 2022/02/16 15:10:47 movies.go:97: Database loaded.
+ERROR: 2022/02/16 15:10:47 movies.go:438: "Error 404": User not found.
+INFO: 2022/02/16 15:11:44 movies.go:81: Database read.
+INFO: 2022/02/16 15:11:44 movies.go:97: Database loaded.
+ERROR: 2022/02/16 15:11:44 movies.go:438: "Error 404": User not found.
+INFO: 2022/02/16 15:11:57 movies.go:81: Database read.
+INFO: 2022/02/16 15:11:57 movies.go:97: Database loaded.
+INFO: 2022/02/16 15:11:57 movies.go:477: New account created with username: 
+INFO: 2022/02/16 15:11:57 movies.go:90: Database updated.
+INFO: 2022/02/16 15:13:00 movies.go:81: Database read.
+INFO: 2022/02/16 15:13:00 movies.go:97: Database loaded.
+INFO: 2022/02/16 15:13:00 movies.go:430: EJ logged in successfully.
+INFO: 2022/02/16 15:13:00 movies.go:90: Database updated.
+INFO: 2022/02/16 15:13:18 movies.go:81: Database read.
+INFO: 2022/02/16 15:13:18 movies.go:97: Database loaded.
+INFO: 2022/02/16 15:13:18 movies.go:347: EJ viewed the list of movies they have watched.
+INFO: 2022/02/16 15:13:18 movies.go:90: Database updated.
+INFO: 2022/02/16 15:13:29 movies.go:81: Database read.
+INFO: 2022/02/16 15:13:29 movies.go:97: Database loaded.
+INFO: 2022/02/16 15:13:29 movies.go:381: EJ viewed Movie#1 info.
+INFO: 2022/02/16 15:13:29 movies.go:90: Database updated.
+INFO: 2022/02/16 15:14:03 movies.go:510: EJ logged out successfully.
+INFO: 2022/02/16 16:48:48 movies.go:81: Database read.
+INFO: 2022/02/16 16:48:55 movies.go:81: Database read.
+INFO: 2022/02/16 16:48:55 movies.go:97: Database loaded.
+ERROR: 2022/02/16 16:48:55 movies.go:438: "Error 404": User not found.
+INFO: 2022/02/16 16:49:42 movies.go:81: Database read.
+INFO: 2022/02/16 16:49:42 movies.go:97: Database loaded.
+INFO: 2022/02/16 16:49:42 movies.go:477: New account created with username: Presenter
+INFO: 2022/02/16 16:49:42 movies.go:90: Database updated.
+INFO: 2022/02/16 16:50:36 movies.go:81: Database read.
+INFO: 2022/02/16 16:50:36 movies.go:97: Database loaded.
+ERROR: 2022/02/16 16:50:36 movies.go:480: "Error 404": Username already exists.
+INFO: 2022/02/16 16:51:41 movies.go:81: Database read.
+INFO: 2022/02/16 16:51:41 movies.go:97: Database loaded.
+ERROR: 2022/02/16 16:51:41 movies.go:480: "Error 404": Username already exists.
+INFO: 2022/02/16 16:52:02 movies.go:81: Database read.
+INFO: 2022/02/16 16:52:02 movies.go:97: Database loaded.
+INFO: 2022/02/16 16:52:02 movies.go:430: Presenter logged in successfully.
+INFO: 2022/02/16 16:52:02 movies.go:90: Database updated.
+INFO: 2022/02/16 16:52:46 movies.go:510: Presenter logged out successfully.
+INFO: 2022/02/16 16:53:40 movies.go:81: Database read.
+INFO: 2022/02/16 16:53:40 movies.go:97: Database loaded.
+ERROR: 2022/02/16 16:53:40 movies.go:480: "Error 404": Username already exists.
+INFO: 2022/02/16 16:53:57 movies.go:81: Database read.
+INFO: 2022/02/16 16:53:57 movies.go:97: Database loaded.
+INFO: 2022/02/16 16:53:57 movies.go:430: Presenter logged in successfully.
+INFO: 2022/02/16 16:53:57 movies.go:90: Database updated.
+INFO: 2022/02/16 16:54:09 movies.go:81: Database read.
+INFO: 2022/02/16 16:54:09 movies.go:97: Database loaded.
+INFO: 2022/02/16 16:54:09 movies.go:158: Presenter added Movie 1 to their to-watch list.
+INFO: 2022/02/16 16:54:09 movies.go:90: Database updated.
+INFO: 2022/02/16 16:54:21 movies.go:81: Database read.
+INFO: 2022/02/16 16:54:21 movies.go:97: Database loaded.
+INFO: 2022/02/16 16:54:21 movies.go:158: Presenter added Mvoie 2 to their to-watch list.
+INFO: 2022/02/16 16:54:21 movies.go:90: Database updated.
+INFO: 2022/02/16 16:54:35 movies.go:81: Database read.
+INFO: 2022/02/16 16:54:35 movies.go:97: Database loaded.
+INFO: 2022/02/16 16:54:35 movies.go:168: Presenter viewed their to-watch movie list.
+INFO: 2022/02/16 16:54:35 movies.go:90: Database updated.
+INFO: 2022/02/16 16:54:46 movies.go:81: Database read.
+INFO: 2022/02/16 16:54:46 movies.go:97: Database loaded.
+ERROR: 2022/02/16 16:54:46 movies.go:223: json: cannot unmarshal string into Go struct field Movie.ID of type int
+INFO: 2022/02/16 16:55:03 movies.go:81: Database read.
+INFO: 2022/02/16 16:55:03 movies.go:97: Database loaded.
+INFO: 2022/02/16 16:55:03 movies.go:311: Presenter finished watching Movie 1.
+INFO: 2022/02/16 16:55:03 movies.go:90: Database updated.
+INFO: 2022/02/16 16:55:15 movies.go:81: Database read.
+INFO: 2022/02/16 16:55:15 movies.go:97: Database loaded.
+INFO: 2022/02/16 16:55:15 movies.go:347: Presenter viewed the list of movies they have watched.
+INFO: 2022/02/16 16:55:15 movies.go:90: Database updated.
+INFO: 2022/02/16 16:55:28 movies.go:81: Database read.
+INFO: 2022/02/16 16:55:28 movies.go:97: Database loaded.
+INFO: 2022/02/16 16:55:28 movies.go:168: Presenter viewed their to-watch movie list.
+INFO: 2022/02/16 16:55:28 movies.go:90: Database updated.
+INFO: 2022/02/16 16:55:41 movies.go:81: Database read.
+INFO: 2022/02/16 16:55:41 movies.go:97: Database loaded.
+INFO: 2022/02/16 16:55:41 movies.go:258: Presenter deleted Movie#1 from database.
+INFO: 2022/02/16 16:55:41 movies.go:90: Database updated.
+INFO: 2022/02/16 16:55:59 movies.go:510: Presenter logged out successfully.
+INFO: 2022/02/16 17:03:09 movies.go:81: Database read.
+INFO: 2022/02/16 17:03:09 movies.go:97: Database loaded.
+INFO: 2022/02/16 17:03:09 movies.go:430: Presenter logged in successfully.
+INFO: 2022/02/16 17:03:09 movies.go:90: Database updated.
+INFO: 2022/02/16 17:03:23 movies.go:81: Database read.
+INFO: 2022/02/16 17:03:23 movies.go:97: Database loaded.
+ERROR: 2022/02/16 17:03:23 movies.go:214: "Error 404": Movie not found in database.
+INFO: 2022/02/16 17:03:28 movies.go:81: Database read.
+INFO: 2022/02/16 17:03:28 movies.go:97: Database loaded.
+ERROR: 2022/02/16 17:03:28 movies.go:214: "Error 404": Movie not found in database.
+INFO: 2022/02/16 17:03:50 movies.go:81: Database read.
+INFO: 2022/02/16 17:03:50 movies.go:97: Database loaded.
+INFO: 2022/02/16 17:03:50 movies.go:158: Presenter added test to their to-watch list.
+INFO: 2022/02/16 17:03:50 movies.go:90: Database updated.
+INFO: 2022/02/16 17:03:54 movies.go:81: Database read.
+INFO: 2022/02/16 17:03:54 movies.go:97: Database loaded.
+INFO: 2022/02/16 17:03:54 movies.go:205: Presenter viewed Movie#2 info.
+INFO: 2022/02/16 17:03:54 movies.go:90: Database updated.
+INFO: 2022/02/16 17:04:19 movies.go:81: Database read.
+INFO: 2022/02/16 17:04:19 movies.go:97: Database loaded.
+ERROR: 2022/02/16 17:04:19 movies.go:223: json: cannot unmarshal string into Go struct field Movie.ID of type int
+INFO: 2022/02/16 17:09:55 movies.go:81: Database read.
+INFO: 2022/02/16 17:09:55 movies.go:97: Database loaded.
+INFO: 2022/02/16 17:09:55 movies.go:235: Presenter updated Movie#2 info.
+INFO: 2022/02/16 17:09:55 movies.go:90: Database updated.
+INFO: 2022/02/16 17:11:38 movies.go:81: Database read.
+INFO: 2022/02/16 17:11:38 movies.go:97: Database loaded.
+ERROR: 2022/02/16 17:11:38 movies.go:491: "Error 401": Active user already found, log out first.
+INFO: 2022/02/16 17:11:38 movies.go:90: Database updated.
+INFO: 2022/02/16 17:12:02 movies.go:510: Presenter logged out successfully.
+INFO: 2022/02/16 17:12:59 movies.go:81: Database read.
+INFO: 2022/02/16 17:12:59 movies.go:97: Database loaded.
+INFO: 2022/02/16 17:12:59 movies.go:477: New account created with username: EJPresenter
+INFO: 2022/02/16 17:12:59 movies.go:90: Database updated.
+INFO: 2022/02/16 17:13:08 movies.go:81: Database read.
+INFO: 2022/02/16 17:13:08 movies.go:97: Database loaded.
+INFO: 2022/02/16 17:13:08 movies.go:430: EJPresenter logged in successfully.
+INFO: 2022/02/16 17:13:08 movies.go:90: Database updated.
+INFO: 2022/02/16 17:13:17 movies.go:81: Database read.
+INFO: 2022/02/16 17:13:17 movies.go:97: Database loaded.
+INFO: 2022/02/16 17:13:17 movies.go:158: EJPresenter added Movie 1 to their to-watch list.
+INFO: 2022/02/16 17:13:17 movies.go:90: Database updated.
+INFO: 2022/02/16 17:13:23 movies.go:81: Database read.
+INFO: 2022/02/16 17:13:23 movies.go:97: Database loaded.
+INFO: 2022/02/16 17:13:23 movies.go:158: EJPresenter added Mvoie 2 to their to-watch list.
+INFO: 2022/02/16 17:13:23 movies.go:90: Database updated.
+INFO: 2022/02/16 17:13:35 movies.go:81: Database read.
+INFO: 2022/02/16 17:13:35 movies.go:97: Database loaded.
+INFO: 2022/02/16 17:13:35 movies.go:168: EJPresenter viewed their to-watch movie list.
+INFO: 2022/02/16 17:13:35 movies.go:90: Database updated.
+INFO: 2022/02/16 17:14:57 movies.go:510: EJPresenter logged out successfully.
+INFO: 2022/02/16 17:16:02 movies.go:81: Database read.
+INFO: 2022/02/16 17:16:02 movies.go:97: Database loaded.
+INFO: 2022/02/16 17:16:02 movies.go:477: New account created with username: PresenterEJ
+INFO: 2022/02/16 17:16:02 movies.go:90: Database updated.
+INFO: 2022/02/16 17:16:08 movies.go:81: Database read.
+INFO: 2022/02/16 17:16:08 movies.go:97: Database loaded.
+INFO: 2022/02/16 17:16:08 movies.go:430: PresenterEJ logged in successfully.
+INFO: 2022/02/16 17:16:08 movies.go:90: Database updated.
+INFO: 2022/02/16 17:16:20 movies.go:81: Database read.
+INFO: 2022/02/16 17:16:20 movies.go:97: Database loaded.
+INFO: 2022/02/16 17:16:20 movies.go:158: PresenterEJ added Movie 1 to their to-watch list.
+INFO: 2022/02/16 17:16:20 movies.go:90: Database updated.
+INFO: 2022/02/16 17:16:28 movies.go:81: Database read.
+INFO: 2022/02/16 17:16:28 movies.go:97: Database loaded.
+INFO: 2022/02/16 17:16:28 movies.go:158: PresenterEJ added Mvoie 2 to their to-watch list.
+INFO: 2022/02/16 17:16:28 movies.go:90: Database updated.
+INFO: 2022/02/16 17:16:37 movies.go:81: Database read.
+INFO: 2022/02/16 17:16:37 movies.go:97: Database loaded.
+INFO: 2022/02/16 17:16:37 movies.go:168: PresenterEJ viewed their to-watch movie list.
+INFO: 2022/02/16 17:16:37 movies.go:90: Database updated.
+INFO: 2022/02/16 17:16:54 movies.go:81: Database read.
+INFO: 2022/02/16 17:16:54 movies.go:97: Database loaded.
+INFO: 2022/02/16 17:16:54 movies.go:235: PresenterEJ updated Movie#1 info.
+INFO: 2022/02/16 17:16:54 movies.go:90: Database updated.
+INFO: 2022/02/16 17:17:19 movies.go:81: Database read.
+INFO: 2022/02/16 17:17:19 movies.go:97: Database loaded.
+INFO: 2022/02/16 17:17:19 movies.go:311: PresenterEJ finished watching Movie 1.
+INFO: 2022/02/16 17:17:19 movies.go:90: Database updated.
+INFO: 2022/02/16 17:17:29 movies.go:81: Database read.
+INFO: 2022/02/16 17:17:29 movies.go:97: Database loaded.
+INFO: 2022/02/16 17:17:29 movies.go:347: PresenterEJ viewed the list of movies they have watched.
+INFO: 2022/02/16 17:17:29 movies.go:90: Database updated.
+INFO: 2022/02/16 17:17:41 movies.go:81: Database read.
+INFO: 2022/02/16 17:17:41 movies.go:97: Database loaded.
+INFO: 2022/02/16 17:17:41 movies.go:168: PresenterEJ viewed their to-watch movie list.
+INFO: 2022/02/16 17:17:41 movies.go:90: Database updated.
+INFO: 2022/02/16 17:17:55 movies.go:81: Database read.
+INFO: 2022/02/16 17:17:55 movies.go:97: Database loaded.
+INFO: 2022/02/16 17:17:55 movies.go:258: PresenterEJ deleted Movie#1 from database.
+INFO: 2022/02/16 17:17:55 movies.go:90: Database updated.
+INFO: 2022/02/16 17:18:09 movies.go:510: PresenterEJ logged out successfully.
